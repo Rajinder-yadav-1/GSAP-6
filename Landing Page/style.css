@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: gilroy ;
+
+}
+@font-face {
+    font-family: "japan";
+    src: url(../fonts/NeueMachina-Light.otf);
+}
+
+@font-face {
+    font-family: "gilroy";
+    src: url(../fonts/Gilroy-Medium.ttf);
+}
+
+
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+
+nav h1{
+    font-size: 35px;
+}
+
+h1 i{
+    display: inline-block;
+    rotate: 45deg;
+    margin-right: 10px;
+}
+nav .part2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+}
+
+
+.part2 h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.part2 button{
+    background: transparent;
+    padding: 15px 50px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+
+.center{
+    height: 80%;
+    width: 100%;
+    padding: 70px 100px;
+    display: flex;
+}
+
+.center-part1{
+    height: 100%;
+    width: 45%;
+}
+
+.center-part1 h1{
+font-size: 85px;
+font-family: japan ;
+}
+.center-part1 p{
+    font-size: 20px;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+
+.center-part1 button{
+    background-color: black;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.center-part2{
+    height: 100%;
+    width: 55%;
+position: relative;
+}
+
+.center-part2 img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 700px;
+}
+
+.section1Bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px;
+}
+
+.section1Bottom img{
+    height: 80px;
+    filter: grayscale(100%);
+}
+.section1Bottom img .a{
+    height: 50px;
+}
+
+.section2 .services{
+    display: flex;
+    width: 70%;
+    padding: 200px 100px 50px 100px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.services h3{
+    font-size: 2vw;
+    background-color:#BAFF66 ;
+    padding: 5px -5px 10px 10px;
+    font-family: japan;
+
+}
+
+.services p{
+    font-size: 1vw;
+}
+
+.container{
+    height: 830px;
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+    align-items: center;
+justify-content: space-between;
+
+}
+
+.container .elem{
+    height: 350px;
+    width: 47%;
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: 0px 20px 0px black;
+    position: relative;
+}
+
+.elem .elem-part1{
+    height: 100%;
+    width: 50%;
+    padding: 30px 40px;
+    position: relative;
+
+}
+
+.elem-part1 h2{
+    font-size: 2vw;
+    background-color: #BAFF66;
+    padding: 5px ;
+}
+
+.elem-part1 h4{
+    bottom: 30px;
+    position: absolute;
+    font-size: 1.5vw;
+    left: 90px;
+    font-family: japan;
+}
+
+.elem-part1 h4 i{
+    font-size: 3vw;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.elem .elem-part2 img{
+
+position: absolute;
+top: 60px;
+right: 20px;
+height: 310px;
+width: 350px;
+}
