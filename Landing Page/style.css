@@ -15,12 +15,12 @@ html,body{
 }
 @font-face {
     font-family: "japan";
-    src: url(../fonts/NeueMachina-Light.otf);
+    src: url(./fonts/NeueMachina-Light.otf);
 }
 
 @font-face {
     font-family: "gilroy";
-    src: url(../fonts/Gilroy-Medium.ttf);
+    src: url(./fonts/Gilroy-Medium.ttf);
 }
 
 .cursor{
