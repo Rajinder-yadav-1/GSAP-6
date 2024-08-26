@@ -23,6 +23,15 @@ html,body{
     src: url(../fonts/Gilroy-Medium.ttf);
 }
 
+.cursor{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #000000;
+    border-radius: 50%;
+    z-index: 99;
+  
+}
 
 section{
     height: 100%;
@@ -64,8 +73,15 @@ nav .part2{
     padding: 15px 50px;
     border-radius: 5px;
     font-size: 17px;
+    cursor: pointer;
+
 }
 
+.part2 button:hover{
+    background-color: #000000;
+    color: white;
+    transition: ease 0.5s;
+}
 
 .center{
     height: 80%;
@@ -99,7 +115,7 @@ font-family: japan ;
     color: white;
     font-size: 20px;
     font-weight: 600;
-
+    cursor: pointer;
 }
 .center-part2{
     height: 100%;
@@ -119,6 +135,7 @@ position: relative;
     align-items: center;
     justify-content: space-between;
     padding: 30px 120px;
+    margin-top: 35px;
 }
 
 .section1Bottom img{
@@ -169,6 +186,7 @@ justify-content: space-between;
     border-radius: 50px;
     box-shadow: 0px 20px 0px black;
     position: relative;
+    cursor: pointer;
 }
 
 .elem .elem-part1{
@@ -209,3 +227,112 @@ right: 20px;
 height: 310px;
 width: 350px;
 }
+
+.section3{
+padding: 150px 100px 0px 100px;
+
+} 
+
+.box{
+    margin-top: 100px;
+    height: 400px;
+    width: 100%;
+    background-color: #dad7d7;
+    padding: 70px 70px;
+    border-radius: 20px;
+    display: flex;
+position: relative;
+}
+
+.box .left{
+    height: 100%;
+    width: 40%;
+}
+
+.left h2{
+    font-size: 2vw;
+    margin-bottom: 20px;
+}
+.left p{
+    line-height: 20px;
+}
+
+.left button{
+    background-color: black;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.box .right{
+   
+    height: 100%;
+    width: 60%;
+    
+}
+
+.right img{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+}
+
+.section3 .caseStudy{
+    display: flex;
+    width: 80%;
+    padding: 200px 100px 50px 100px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.caseStudy h3{
+    font-size: 2vw;
+    background-color:#BAFF66 ;
+    padding: 5px -5px 10px 10px;
+    font-family: japan;
+    flex-shrink: 0;
+}
+
+.caseStudy p{
+    font-size: 1vw;
+}
+
+
+.container-b{
+    height: 400px;
+    width: 100%;
+    background-color: #111;
+    color: white;
+    border-radius: 30px;
+padding: 60px 50px;
+display: flex;
+justify-content: space-around;
+gap: 100px;
+
+}
+
+.container-b p{
+    font-size: 1vw;
+    line-height: 25px;
+}
+
+.container-b .first h4{
+    font-size: 1.5vw;
+    color: #BAFF66;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.vl {
+    border-left: 4px solid #BAFF66;
+    height: 250px;
+  }
+
+  .blank{
+    height: 100px;
+  }
